@@ -18,6 +18,6 @@ int main()
 	/*No comando anterior, %f especifica que será mostrado um número real, e 5.2 significa que serão utilizados:
 	5 caracteres para mostrar o número e, destes, 2 caracteres para a parte fracionária, um caractere para o ponto
 	e dois caracteres para a parte inteira. 
-
 	*/
 }
+
