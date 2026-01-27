@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define aumento 1.25;
 int main()
 {
 	float salario, novoSalario;
@@ -12,4 +13,5 @@ int main()
 	//no comando acima, basta utilizar .2 para que o nmero apresente duas casas decimais
 	
 	return 0;
+
 }
