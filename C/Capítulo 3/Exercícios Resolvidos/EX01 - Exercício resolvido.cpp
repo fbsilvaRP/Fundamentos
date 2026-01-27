@@ -1,5 +1,6 @@
 //Programa escrito em linguagem C
-// "%*c" após utilizar %d para limpar o buffer após a inserção do caractere.
+// O comando scanf armazena em um buffer o conteúdo digitado pelo usuário e armazena também a tecla enter utilizada pelo usuário para encerrar a entrada de dados
+//Para que o buffer seja esvaziado depois da atribuição do conteúdo à variável, utiliza-se %*c.
 #include <stdio.h>
 int main()
 {
@@ -24,3 +25,4 @@ int main()
 	
 
 }
+
