@@ -1,4 +1,5 @@
 //Programa escrito em linguagem C
+// "%*c" após utilizar %d para limpar o buffer após a inserção do caractere.
 #include <stdio.h>
 int main()
 {
@@ -21,4 +22,5 @@ int main()
 	
 	return 0;
 	
+
 }
