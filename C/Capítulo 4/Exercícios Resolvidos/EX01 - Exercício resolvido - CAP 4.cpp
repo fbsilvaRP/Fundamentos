@@ -23,7 +23,6 @@ int main()
 	
 	media = (notaLab * pesoLab + notaSemestral * pesoSemestral + notaExameFinal * pesoExameFinal) / (pesoLab + pesoSemestral + pesoExameFinal);
 	
-	
 	//OBS: Ao inserir o caractere na variável, deve-se utilizar aspas simples ''
 	
 	if(media >= 0.00 && media < 5.00)
@@ -46,5 +45,5 @@ int main()
 	printf("\nConceito: %c", conceito);
 	
 	return 0;
-	
+
 }
