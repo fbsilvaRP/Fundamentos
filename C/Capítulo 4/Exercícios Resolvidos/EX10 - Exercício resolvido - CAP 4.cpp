@@ -1,10 +1,13 @@
-#OBS: Erro de comparação de datas - verificar 
+//OBS: Erro de comparação de datas - verificar 
 #include <stdio.h>
 int main()
 {
-	int dia1 = 0, mes1 = 0, ano1 = 0; 
-	int dia2 = 0, mes2 = 0, ano2 = 0; 
-	
+	//Definicao de variaveis -----------------------------------------------------------------------
+	int dia1 = 0, mes1 = 0, ano1 = 0;  //Armazenam, respectivamente, o primeiro dia, mes e ano
+	int dia2 = 0, mes2 = 0, ano2 = 0; // // 						   segundo dia, mes e ano
+	int verificador = 0; 			
+	// ---------------------------------------------------------------------------------------------
+	//Obtendo as datas do usuário...
 	printf("Coletando a primeira data...");
 	
 	printf("\nDigite o dia: ");
@@ -29,40 +32,9 @@ int main()
 	printf("Digite o ano: ");
 	scanf("%d%*c", &ano2); 
 	
-	printf("\nSegunda data coletada: %d/%d/%d", dia2, mes2, ano2); 
+	printf("\nSegunda data coletada: %d/%d/%d", dia2, mes2, ano2);
+	// --------------------------------------------------------------------------------------------- 
+	//Definindo a data cronologicamente maior - como definir?
 	
-	//Definindo a data cronologicamente maior
-	
-	if (ano1 > ano2)
-		printf("\nA primeira data eh maior");
-	else 
-	{
-		if(ano1 < ano2)
-			printf("\nA segunda data eh maior");
-		else
-		{
-			if(mes1 > mes2)
-				printf("\nA primeira data eh maior");
-			else
-			{
-				if(mes1 < mes2)
-					printf("\nA segunda data eh maior");
-				else
-				{
-					if(dia1 > dia2)
-						printf("\nA primeira data eh maior");
-					else
-					{
-						if(dia1 < dia2)
-							printf("\nA primeira data eh maior");
-						else
-							printf("\nAs duas datas sao iguais...");
-					}
-				}
-			}
-			
-		}
-		
-	}
 }
 	
