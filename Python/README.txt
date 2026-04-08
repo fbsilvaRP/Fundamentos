@@ -1,0 +1,1 @@
+Diretório criado para armazenar os exercícios do livro resolvidos utilizando a linguagem Python.
