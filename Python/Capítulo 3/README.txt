@@ -1,1 +1,0 @@
-Diretório criado para armazenar os exercícios resolvidos do capítulo 3.
