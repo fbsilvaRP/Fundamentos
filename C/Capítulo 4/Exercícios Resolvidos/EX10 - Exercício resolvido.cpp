@@ -74,7 +74,7 @@ int main()
 			}
 		}
 	}
-	
+	//Verificador == 0: A primeira data será maior
 	if(verificador == 0)
 		printf("\nA primeira data digitada eh maior");
 	else
