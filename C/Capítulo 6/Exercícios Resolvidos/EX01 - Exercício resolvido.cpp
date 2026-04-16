@@ -11,7 +11,10 @@ int main()
 	//Preenchendo o vetor com valores decididos pelo usuário
 	for(int i = 0; i <= tam; i++)
 	{
-		
+		printf("Digite o valor %d: ", i);
+		scanf("%d%*c", &valor); 
+		vetor[i] = valor; 
 	}
-	
+	//Percorrendo o vetor e identificando os números primos...
+	//Continuar a partir daqui...
 }
