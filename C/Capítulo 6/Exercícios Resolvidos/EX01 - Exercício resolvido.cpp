@@ -9,7 +9,7 @@ int main()
 	int valor = 0; 
 	
 	//Preenchendo o vetor com valores decididos pelo usuário
-	for(int i = 0; i <= tam; i++)
+	for(int i = 0; i < tam; i++)
 	{
 		printf("Digite o valor %d: ", i);
 		scanf("%d%*c", &valor); 
